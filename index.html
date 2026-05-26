@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impacto Fitness</title>
+    <link rel="icon" href="imagenes/Impactofitnesslogo.png" type="image/png">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Impacto Fitness</h1>
+        <p>Encontrá tu gimnasio ideal</p>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>Registrate y empezá a entrenar</h2>
+        <form action="#" method="POST">
+            
+            <p>
+                <label for="nombre">Nombre Completo:</label><br>
+                <input type="text" id="nombre" name="nombre" required>
+            </p>
+
+            <p>
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="telefono">Teléfono / Celular:</label><br>
+                <input type="tel" id="telefono" name="telefono" required>
+            </p>
+
+            <p>
+                <label for="objetivo">¿Qué buscas?</label><br>
+                <select id="objetivo" name="objetivo">
+                    <option value="musculacion">Musculación / Fuerza</option>
+                    <option value="cardio">Cardio / Pérdida de peso</option>
+                    <option value="funcional">Clases / Funcional</option>
+                </select>
+            </p>
+
+            <button type="submit">Enviar mis datos</button>
+        </form>
+    </main>
+
+    <hr>
 </body>
 </html>

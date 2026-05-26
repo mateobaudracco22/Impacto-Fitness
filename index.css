@@ -1,0 +1,50 @@
+/* Estilos generales para toda la página */
+body {
+    background-color: #1a1a1a;    /* Fondo oscuro */
+    color: #ffffff;               /* Texto blanco */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;             /* Centra y acota el ancho de la página */
+    margin: 0 auto;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #ff5500;               /* Color naranja para resaltar */
+}
+
+/* Formularios y campos de texto */
+input, select {
+    width: 100%;                  /* Ocupa todo el ancho disponible */
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;       /* Evita que se deformen los campos */
+}
+
+/* El botón de enviar */
+button {
+    background-color: #cc1100;    /* Botón rojo */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;                  /* Botón ancho y fácil de tocar */
+}
+
+button:hover {
+    background-color: #ff5500;    /* Cambia a naranja al pasar el mouse */
+}
+
+/* Lista de gimnasios (cuando la uses) */
+ul {
+    list-style-type: none;        /* Saca los puntitos de la lista */
+    padding: 0;
+}
+
+li {
+    background-color: #2a2a2a;    /* Fondo gris para cada gimnasio */
+    padding: 15px;
+    margin-bottom: 15px;
+}
