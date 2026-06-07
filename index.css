@@ -6,6 +6,10 @@ body {
     padding: 20px;
     max-width: 600px;             /* Centra y acota el ancho de la página */
     margin: 0 auto;
+    background-image: url(imagenes/Impactofitnesslogo.png);
+    background-size: cover;        /* Ajusta la imagen a toda la pantalla */
+    background-repeat: no-repeat;  /* Evita que se repita */
+    background-position: center;   /* Centra la imagen */
 }
 
 /* Títulos */
